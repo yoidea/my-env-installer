@@ -9,6 +9,6 @@ teardown() {
 }
 
 @test "Helloと出力される" {
-    run ./install.sh
+    run bash install.sh
     [ "$output" = "Hello" ]
 }
